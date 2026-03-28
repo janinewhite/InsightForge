@@ -49,29 +49,26 @@ insightforge_project/
 ## How to run the project on Windows 11
 
 ### Install Python 3.11 or 3.12.
-  Python 3.11.9 installed for this project from https://www.python.org/downloads/. Checked Add Python to PATH when installing.
-  Verified version with python --version in Powershell.
-
-### Enable OpenAI access
-  Copy or rename .env.example to .env
-  Add you API key to .env. Open AI keys can be created at https://platform.openai.com/api-keys.
-    OPENAI_API_KEY=your_key_here
+  Python 3.11.9 installed for this project from https://www.python.org/downloads/.
+  Check Add Python to PATH when installing.
+  Verify version with python --version in Powershell.
 
 ### Run the app using Powershell
-  Open PowerShell in the folder.
-  Change directory to the project folder.
+- Open PowerShell in the folder.
+- Change directory to the project folder.
     cd "<project path>"
-  Establish Python environment.
+- Establish Python environment.
     python -m venv .venv
     .venv\Scripts\Activate.ps1
-      If there is  security error run the following commnd, then repeat the activation.
+  - If there is  security error run the following commnd, then repeat the activation.
         Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
         .venv\Scripts\Activate.ps1
-  Install required Python packages.
+- Install required Python packages.
     pip install --upgrade pip
     pip install -r requirements.txt
-  Enable OpenAI API access. Edit .env 
-  Run the app.
+- Enable OpenAI API access. Edit .env. Add your API key to .env. Open AI keys can be created at https://platform.openai.com/api-keys.
+     OPENAI_API_KEY=your_key_here
+- Run the app.
     streamlit run app.py
 
 ## What the app can answer
@@ -87,7 +84,7 @@ The app can run without an API key. In that case it uses deterministic rule-base
 
 ## Evaluation
 
-Run comand in Powershell.
+- Run comand in Powershell.
   python -m src.evaluator
 
 This creates or updates entries in the local SQLite database under `storage/insightforge.db`.
