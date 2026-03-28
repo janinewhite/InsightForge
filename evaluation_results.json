@@ -1,0 +1,17 @@
+[
+  {
+    "question": "Which region performs best?",
+    "intent": "regional_analysis",
+    "answer": "The West performs best on sales.\n\n- West total sales: 361,383\n- Next best: North at 353,025\n- Lowest: East at 320,296\n\nWhat stands out:\n- The West leads in total sales, but it does not lead in customer satisfaction.\n- East has the lowest sales, even though it has the highest average satisfaction (3.07).\n- West also has the highest average sales per record (561.15), slightly ahead of the other regions.\n\nBusiness takeaway:\n- West is your strongest revenue region right now.\n- East looks like an under-monetized opportunity: customer satisfaction is strongest there, but sales lag.\n\nRecommended actions:\n1. Protect and scale the West by identifying what is driving its higher sales and replicating that playbook in other regions.\n2. Focus on converting East\u2019s strong satisfaction into more revenue through targeted promotions, upsell offers, or expanded coverage."
+  },
+  {
+    "question": "Show sales trend over time",
+    "intent": "sales_trend_month",
+    "answer": "Sales are fairly stable over time, mostly in the **15K\u201319K range per month**, with a few notable spikes and one sharp drop.\n\n- **Peak month:** **2028-04** with **20,387** in sales\n- **Lowest month:** **2028-11** with **3,212** in sales\n\n### Trend highlights\n- **2022\u20132027:** Sales fluctuate month to month but stay relatively consistent overall, without a strong long-term upward or downward trend.\n- Stronger months appear in:\n  - **2022-12:** 19,267\n  - **2023-08 / 2023-12:** 19,093 / 19,035\n  - **2024-05:** 19,740\n  - **2025-02:** 20,168\n  - **2026-04:** 19,196\n  - **2028-04:** 20,387\n- Weaker months before the final drop include:\n  - **2026-09:** 13,827\n  - **2027-02:** 13,717\n  - **2027-10:** 14,049\n\n### Business readout\nThe business shows **steady recurring sales performance** with periodic peaks, but **2028-11 is a major exception** and likely reflects a one-off issue, seasonality shift, or incomplete period rather than normal demand.\n\n### Recommended actions\n1. **Investigate 2028-11 immediately** to confirm whether this is a reporting gap, stockout, or true demand decline.\n2. **Replicate conditions from peak months** like **2025-02** and **2028-04**\u2014for example promotions, product availability, or campaign timing\u2014to lift average monthly sales.\n\nI can also turn this into a brief month-by-month chart commentary if you want."
+  },
+  {
+    "question": "What is the median sales?",
+    "intent": "summary_stats",
+    "answer": "The median sales is **552.5**.\n\nIn plain terms, that means **half of all 2,500 transactions were at or below 552.5, and half were above**.\n\nRecommendation:\n- Use **552.5 as a typical transaction benchmark** when evaluating sales performance, since it is less affected by extremes than the average.\n- Compare product, region, or segment medians next if you want to identify where typical sales are strongest or weakest."
+  }
+]
